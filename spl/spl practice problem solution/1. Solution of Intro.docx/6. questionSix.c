@@ -9,5 +9,6 @@ int main(){
 
     printf("\nMy age is: %d", age);
 
+    printf("\n");
     return 0;
 }

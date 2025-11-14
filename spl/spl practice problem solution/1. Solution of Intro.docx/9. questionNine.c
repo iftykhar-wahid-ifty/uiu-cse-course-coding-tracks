@@ -15,5 +15,6 @@ int main(){
     printf("The double value: %lf\n", doubleValue);
     printf("The boolean value: %d", booleanValue);
 
+    printf("\n");
     return 0;
 }

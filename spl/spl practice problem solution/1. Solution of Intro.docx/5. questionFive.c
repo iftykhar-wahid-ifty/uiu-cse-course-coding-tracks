@@ -15,7 +15,9 @@ int main()
     int c1 = 10, c2 = 20, c3 = 30;
 
     // d)	Declare and initialize multiple variables with the same value in one statement
-    int d1 = d2 = d3 = 50;
+    int d1, d2, d3;
+    d1 = d2 = d3 = 50;
 
+    printf("\n");
     return 0;
 }

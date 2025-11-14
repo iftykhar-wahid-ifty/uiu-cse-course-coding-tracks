@@ -18,6 +18,6 @@ int main()
     printf("The floating point value: %f\n", floatValue);
     printf("The character value: %c", characterValue);
 
-
+    printf("\n");
     return 0;
 }

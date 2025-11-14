@@ -22,5 +22,6 @@ int main(){
     printf("The long double value: %Le\n", longDouble);
     printf("The short int value: %hd", shortInt);
 
+    printf("\n");
     return 0;
 }

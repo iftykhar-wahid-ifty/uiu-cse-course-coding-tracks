@@ -9,5 +9,6 @@ int main(){
 
     printf("First value = %d, Last value = %d", firstNum, lastNum);
 
+    printf("\n");
     return 0;
 }
