@@ -2,19 +2,20 @@
 
 int main()
 {
-    int integerValue;
-    float floatValue;
-    char characterValue;
+    int integerValue = 5;
+    float floatValue = 3.141593;
+    char characterValue = 'a';
 
-    printf("Enter the int value: ");
-    scanf("%d", &integerValue);
-    printf("Enter the float value: ");
-    scanf("%f", &floatValue);
-    getchar();
-    printf("Enter the char value: ");
-    scanf("%c", &characterValue);
+    printf("The integer value: %d\n", integerValue);
+    printf("The floating point value: %f\n", floatValue);
+    printf("The character value: %c\n\n", characterValue);
 
-    printf("\nThe integer value: %d\n", integerValue);
+
+    integerValue = 100;
+    floatValue = 1.618000;
+    characterValue = 'z';
+
+    printf("The integer value: %d\n", integerValue);
     printf("The floating point value: %f\n", floatValue);
     printf("The character value: %c", characterValue);
 
